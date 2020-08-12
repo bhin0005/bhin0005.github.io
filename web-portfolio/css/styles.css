@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+@media (min-width: 10px){
+    body{
+        margin: 10px;
+        background-color: #0005;
+    }
+
+    .devil{
+        background-color: black;
+        display: grid;
+        grid-template-columns: 100px 1fr 1fr;
+    }
+
+    nav ul{
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    display: inline-flex;
+    float: right;
+    margin-right: 10px;
+    }
+
+    nav ul {
+        padding-top: 1rem;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .logo {
+        font-family: Goudy Stout;
+        color: white;
+        font-size: 5rem;
+        margin: 0px;
+    }
+
+    .h1 {
+        color: white;
+    }
+
+    .p1, .h2{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .nav-2 {
+        background-color: #E6E7E8;
+    }
+
+    .li {
+        padding: 0.5rem;
+        margin: 10px;
+        font-family: sans-serif;
+        font-size: 1.5rem;
+    }
+
+        .li a{
+        text-decoration: none;
+        list-style: square inside;
+    }
+
+    .foot{
+        border: 5px solid black;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .devil-2{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+    .img-9, .img-10, .img-11 {
+        margin:5px;
+        margin-left: 0px;
+        padding: 5px;
+        background-color: black;
+    }
+
+    .copy{
+        grid-row: 1/2;
+        grid-column: 2/3;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    .arrow{
+        grid-row: 1/2;
+        grid-column: 3/4;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .bio{
+        font-family: sans-serif;
+    }
+
+    .bio-2{
+        font-size: 2rem;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: lighter;
+    }
+
+    form {
+        margin: 1rem;
+        display: grid;
+        font-family: 'Gotu', sans-serif;
+        font-weight: bold;
+        }
+
+    fieldset{
+        border:0px;
+    }
+    
+    label{
+        font-size: 1em;
+    }
+    
+    textarea {
+        width: 100%;
+            height: 30px;
+    }
+    
+    button {
+        margin: 1rem;
+        width: 96%;
+        height: 40px;
+        font-size: 20px;
+        grid-row: 3/4;
+        grid-column: 1/3;
+    }
+    
+    .lol {
+        background-color: #D1D3D4;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50px 200px 1fr;
+    }
+
+    #message{
+        padding-bottom: 10rem;
+    }
+
+    #name {
+        width: 100%;
+    }
+
+    .message {
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+
+    #email {
+        width: 100%;
+    }
+
+    #message{
+        width: 100%;
+    }
+    
+    iframe {
+            width: 100%;
+        }
+    
+}
+
+@media (min-width: 800px){
+
+   .div-1, .div-2, .div-3{
+       padding-left: 4rem;
+       padding-right: 4rem;
+   }
+
+   .bio{
+       display: grid;
+       grid-template-columns: 400px 1fr;
+       grid-template-rows: 100px 50px 50px 1fr 290px 400px;
+   }
+
+   .my {
+       grid-row: 1/5;
+       grid-column: 2/3;
+       padding: 2rem;
+   }
+
+   .name{
+       grid-row: 1/2;
+       grid-column: 1/2;
+       font-size: 1.5rem;
+       margin-top: 4rem;
+       margin-left: 1rem;
+   }
+
+   .date{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-left: 1rem;
+   }
+
+   .email{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+   }
+
+   .bio-2{
+       grid-row:5/6 ;
+       grid-column:1/3 ;
+   }
+
+   .lol{
+    grid-row: 6/7;
+    grid-column: 1/3;
+    margin: 2rem;
+    }
+}
+
+@media (min-width: 1000px){
+
+    .my{
+        padding: 5rem;
+    }
+
+}
+
+@media (min-width: 1200px){
+
+    .bio{
+        grid-template-columns: 1fr 600px;
+        grid-template-rows: 100px 50px 50px 1fr ;
+    }
+
+    .my {
+       grid-row: 1/5;
+       grid-column: 1/2;
+       }
+
+   .name{
+       grid-row: 1/2;
+       grid-column: 2/3;
+   }
+
+   .date{
+    grid-row: 2/3;
+    grid-column: 2/3;
+   }
+
+   .email{
+    grid-row: 3/4;
+    grid-column: 2/3;
+   }
+
+   .bio-2{
+    grid-row:4/5 ;
+    grid-column:2/3;
+    text-align: left;
+    margin-right: 10rem;
+    }
+
+    .div-3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .pic-2, .pic-3, .pic-4{
+        padding: 1rem;
+    }
+
+}
